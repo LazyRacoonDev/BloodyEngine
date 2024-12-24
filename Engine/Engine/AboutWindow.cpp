@@ -18,12 +18,12 @@ void AboutWindow::DrawWindow()
 	UpdateMouseState();
 
     // Title
-    ImGui::Text("SpectraEngine");
+    ImGui::Text("BloodEngine");
     ImGui::Separator();
 
     // Description
     ImGui::Text("Description:");
-    ImGui::TextWrapped("SpectraEngine is a 3D game engine developed in C++ with OpenGL, currently capable of rendering geometry with a range of controls and information displays.");
+    ImGui::TextWrapped("BloodEngine is a 3D game engine developed in C++ with OpenGL, currently capable of rendering geometry with a range of controls and information displays. Forked from: https://github.com/CITM-UPC/SpectraEngine" );
     ImGui::Spacing();
     HyperLink("GitHub", "https://github.com/CITM-UPC/SpectraEngine");
     ImGui::Spacing();
